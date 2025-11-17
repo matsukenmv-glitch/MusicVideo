@@ -1,5 +1,10 @@
 const videos = [
   {
+    title: "MV初学者向けの動画",
+    url: "https://www.youtube.com/embed/xxxxxxxxxxx",
+    description: "楽曲のリズムにあった字幕の表示を比較します"
+  },
+  {
     title: "字幕①：表示タイミングについて",
     url: "https://www.youtube.com/embed/xxxxxxxxxxx",
     description: "楽曲のリズムにあった字幕の表示を比較します"
@@ -13,6 +18,11 @@ const videos = [
     title: "字幕③：配色について",
     url: "https://www.youtube.com/embed/yyyyyyyyyyy",
     description: "配色の仕方、印象を比較します"
+  },
+  {
+    title: "実際に初学者が制作したMV",
+    url: "https://www.youtube.com/embed/yyyyyyyyyyy",
+    description: "test 0101010101"
   },
   {
     title: "Test Video 01",
