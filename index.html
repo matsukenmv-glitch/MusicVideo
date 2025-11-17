@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>動画アーカイブ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div style="background-color: hsl(200, 100%, 40%);">　</div>
+  <header>
+    <h1 class="outlined-layer" data-text="研究-動画アーカイブ">研究-動画アーカイブ</h1>
+    <p class="underlined">学習・比較用の動画リスト</p>
+  </header>
+
+  <main id="accordion-container"></main>
+
+  <!-- videos.jsを読み込む -->
+  <script src="videos.js"></script>
+  <script>
+    const container = document.getElementById("accordion-container");
+
+    videos.forEach(video => {
+      const section = document.createElement("section");
+      section.className = "accordion-item";
+      section.innerHTML = `
+        <button class="accordion-header">${video.title}</button>
+        <div class="accordion-content">
+          <div class="video-wrapper">
+            <iframe src="${video.url}" 
+                    frameborder="0"
+                    allowfullscreen></iframe>
+          </div>
+          ${video.description ? `<p>${video.description}</p>` : ""}
+        </div>
+      `;
+      container.appendChild(section);
+    });
+
+    // アコーディオンのやーつ
+    document.querySelectorAll(".accordion-header").forEach(header => {
+      header.addEventListener("click", () => {
+        header.classList.toggle("active");
+        const content = header.nextElementSibling;
+        content.style.maxHeight = content.style.maxHeight
+          ? null
+          : content.scrollHeight + "px";
+      });
+    });
+  </script>
+</body>
+</html>
