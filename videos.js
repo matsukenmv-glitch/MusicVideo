@@ -1,37 +1,37 @@
 const videos = [
   {
-    title: "MV初学者向けの動画",
-    url: "https://www.youtube.com/embed/xxxxxxxxxxx",
-    description: "楽曲のリズムにあった字幕の表示を比較します"
+    title: "MV初学者向けの解説動画「動画の基礎」",
+    url: "https://www.youtube.com/embed/fcskJ0Xb0P0",
+    description: "動画を作ったことがない人に向けた基礎の内容です"
   },
   {
-    title: "字幕①：表示タイミングについて",
-    url: "https://www.youtube.com/embed/xxxxxxxxxxx",
-    description: "楽曲のリズムにあった字幕の表示を比較します"
+    title: "文字を出すタイミング",
+    url: "https://www.youtube.com/embed/aZZzDoP5xL4",
+    description: "字幕の出すタイミングを比較しながら見ていきましょう"
   },
   {
-    title: "字幕②：素材の動かし方について",
-    url: "https://www.youtube.com/embed/yyyyyyyyyyy",
-    description: "加減速を付けた動きやfpsごとの動きを比較します"
+    title: "配色について",
+    url: "https://www.youtube.com/embed/v_nYiuoDnNo",
+    description: "色をつけるうえでの意識すべきこと"
   },
   {
-    title: "字幕③：配色について",
-    url: "https://www.youtube.com/embed/yyyyyyyyyyy",
-    description: "配色の仕方、印象を比較します"
+    title: "フォントについて",
+    url: "https://www.youtube.com/embed/65Mkviul9sk",
+    description: "フォントの選び方と気を付けないといけないこと"
   },
   {
-    title: "実際に初学者が制作したMV",
-    url: "https://www.youtube.com/embed/yyyyyyyyyyy",
-    description: "test 0101010101"
+    title: "文字やオブジェクトの演出",
+    url: "https://www.youtube.com/embed/yU0fGI7eP2E",
+    description: "文字を動かすときに意識すべきポイント"
   },
   {
-    title: "Test Video 01",
-    url: "https://www.youtube.com/embed/mx1jMS08Jm0",
-    description: "test 0101010101"
+    title: "FPSについて",
+    url: "https://www.youtube.com/embed/378he5u97Ts",
+    description: "撮影や編集で滑らかさを操るために"
   },
   {
-    title: "Test Video 02",
-    url: "https://www.youtube.com/embed/Z1YrW0GW74w?si=C2rJGp_I3uzpYPr4",
-    description: "Test 0202020202"
+    title: "最後に",
+    url: "https://www.youtube.com/embed/F2wSA6igb_g",
+    description: "最後に...."
   }
 ];
