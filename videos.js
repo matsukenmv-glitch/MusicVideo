@@ -1,5 +1,10 @@
 const videos = [
   {
+    title: "【FULL】MV初学者向けの解説動画",
+    url: "https://www.youtube.com/embed/9d6OLql6mro",
+    description: "研究用の教材動画FULL尺のやつです"
+  },
+  {
     title: "MV初学者向けの解説動画「動画の基礎」",
     url: "https://www.youtube.com/embed/fcskJ0Xb0P0",
     description: "動画を作ったことがない人に向けた基礎の内容です"
