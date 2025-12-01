@@ -38,5 +38,10 @@ const videos = [
     title: "最後に",
     url: "https://www.youtube.com/embed/F2wSA6igb_g",
     description: "最後に...."
+  },
+  {
+    title: "動画の作例",
+    url: "https://www.youtube.com/embed/cTGA9zWHmSw",
+    description: "動画制作初心者が実際にイラストのみで制作したMVがこちらになります。素材はイラスト2枚(カラーと白黒差分)のみです。"
   }
 ];
